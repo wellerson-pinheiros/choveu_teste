@@ -5,7 +5,7 @@ import barrasecond from '../assets/barrabluesecond.svg'
 function Home() {
   return (
     <div
-      className="min-h-screen max-w-full bg-cover bg-center"
+      className="md:min-h-screen md:max-w-full bg-cover bg-center"
       style={{ backgroundImage: `url(${background})` }}
     >
 
