@@ -11,7 +11,7 @@ function TerceariSection() {
             <div className="w-[866px] h-[408px] flex mx-auto bg-white rounded-2xl gap-2.5">
                 <img src={rostos} alt="foto de um pai e seu bebê " className='rounded-2xl'/>
                 <div className='flex flex-col  w-[365px] text-justify  pt-4 pl-6'>
-                    <p className='text-black font-inter font-normal text-[24px] pt-6'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore </p>
+                    <p className='text-black font-inter font-normal text-[24px] pt-6'>Lorem ipsum dolor <span className='font-inter font-bold text-[24px]'>sit amet,</span> consectetur adipisicing elit, sed do <span className='font-inter font-bold text-[24px]'>eiusmod tempor</span> incididunt ut labore </p>
                 
                 <div className='w-[225px] h-[29px] pt-14 flex flex-col text-center'>
                         <img src={barra} alt="barra amarela" className='w-[163.57px]'/>
