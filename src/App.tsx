@@ -5,6 +5,7 @@ import SecondSecion from "./components/SecondSecion"
 import TerceariSection from "./components/TerceariSection"
 import QuartaSection from "./components/QuartaSection"
 import Galeria from "./components/Galeria"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
      <TerceariSection/>
      <QuartaSection/>
      <Galeria/>
+     <Footer/>
       <Routes>
        
       </Routes>
