@@ -1,8 +1,10 @@
 import { BrowserRouter, Routes } from "react-router-dom"
-import NavBar from "./components/nav/NavBar"
+import NavBar from "./components/NavBar"
 import Home from "./pages/Home"
-import SecondSecion from "./components/nav/SecondSecion"
+import SecondSecion from "./components/SecondSecion"
 import TerceariSection from "./components/TerceariSection"
+import QuartaSection from "./components/QuartaSection"
+import Galeria from "./components/Galeria"
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
      <Home/>
      <SecondSecion/>
      <TerceariSection/>
+     <QuartaSection/>
+     <Galeria/>
       <Routes>
        
       </Routes>

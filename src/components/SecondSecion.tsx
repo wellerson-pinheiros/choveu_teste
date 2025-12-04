@@ -1,4 +1,4 @@
-import img from '../../assets/img.svg'
+import img from '../assets/img.svg'
 
 function SecondSecion() {
   return (
