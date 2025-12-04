@@ -21,7 +21,7 @@ function Footer() {
       </div>
        
 
-        dsd
+     
     </div>
   )
 }
