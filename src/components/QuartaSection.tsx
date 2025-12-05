@@ -31,67 +31,57 @@ function QuartaSection() {
                 </h2>
             </div>  
                 </div>
-                
-           
-                
-            
-
-
-
-
-            <div className='bg-[#ffff] w-[597px] h-[314px] flex flex-col mt-20 border border-[#EFEFEF] rounded-3xl '>
-            <div className='flex justify-between bg-[#EFEFEF] h-[60px] items-center p-4 rounded-t-2xl'>
+            <div className='bg-[#ffff] w-[328px] md:w-[597px]  h-[379px] md:h-[314px] flex flex-col mt-20 border border-[#EFEFEF] rounded-3xl '>
+             <div className='flex justify-between bg-[#EFEFEF] h-[60px] items-center p-4 rounded-t-2xl'>
                 <div className='flex gap-5'>
                     <img src={apple} alt="imagem de uma maça" />
-                <h2 className='font-inter font-bold text-[17px] leading-[150%] space-y-[18px] text-[#023F88]'>
+                    <h2 className='font-inter font-bold text-[17px] leading-[150%] space-y-[18px] text-[#023F88]'>
                     Qui officia deserunt mollit
-                </h2>
+                    </h2>
                 </div>
                 
                 <img src={arrow} alt="" />
             </div >
-                <ul className='list-disc  text-[#525252] p-3 list-inside pl-5  w-[507px] h-[204px] font-inter font-normal text-[13px] leading-[100%] space-y-[18px]'>
-                <li className=''>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
-                <li>Sed do eiusmod tempor incididunt.</li>
-                <li>Ut labore et dolore magna aliqua.</li>
-                <li>Ut enim ad minim veniam.</li>
-                <li>Quis nostrud exercitation ullamco laboris nisi ut aliquip.</li>
-                <li className='indent-[-1.5em] pl-5'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu <br />
+                <ul className='list-disc  text-[#525252] p-3 list-inside pl-5  w-[311px] md:w-[507px] h-[204px] font-inter font-normal text-[13px] leading-[100%] space-y-[18px]'>
+                    <li className='indent-[-1.5em] pl-5'>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+                    <li className='indent-[-1.5em] pl-5'>Sed do eiusmod tempor incididunt.</li>
+                    <li className='indent-[-1.5em] pl-5'>Ut labore et dolore magna aliqua.</li>
+                    <li className='indent-[-1.5em] pl-5'>Ut enim ad minim veniam.</li>
+                    <li className='indent-[-1.5em] pl-5'>Quis nostrud exercitation ullamco laboris nisi ut aliquip.</li>
+                    <li className='indent-[-1.5em] pl-5'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu <br />
                     fugiat nulla pariatur.</li>
-                <li className='indent-[-1.5em] pl-5'>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia <br />
+                    <li className='indent-[-1.5em] pl-5'>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia <br />
                     deserunt mollit anim id est laborum.</li>
-            </ul>
-           
-            
+                </ul>        
         </div>
 
 
 
-        <div className='bg-[#ffff] w-[597px] h-[314px] flex flex-col mt-20 border border-[#EFEFEF] rounded-3xl '>
+        <div className='bg-[#ffff] w-[328px] md:w-[597px] h-[379px]  md:h-[314px] flex flex-col mt-20 border border-[#EFEFEF] rounded-3xl mb-2'>
             <div className='flex justify-between bg-[#EFEFEF] h-[60px] items-center p-4 rounded-t-2xl '>
-                <div className='flex gap-5'>
+                <div className='flex gap-5 items-center'>
                     <img src={word} alt="imagem de uma maça" />
-                <h2 className='font-inter font-bold text-[17px] leading-[150%] space-y-[18px] text-[#023F88]'>
-                    Qui officia deserunt mollit
-                </h2>
+                    <h2 className='font-inter font-bold text-[15px] md:text-[17px] leading-[150%] space-y-[18px] text-[#023F88]'>
+                        Qui officia deserunt mollit
+                    </h2>
                 </div>
                 
-                <img src={arrowdown} alt="" />
+                <img src={arrowdown} alt="imagem da ceta para baixo" />
             </div >
-                <ul className='list-disc  text-[#525252] p-3 list-inside pl-5  w-[507px] h-[204px] font-inter font-normal text-[13px] leading-[100%] space-y-[18px]'>
-                <li className=''>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
-                <li>Sed do eiusmod tempor incididunt.</li>
-                <li>Ut labore et dolore magna aliqua.</li>
-                <li>Ut enim ad minim veniam.</li>
-                <li>Quis nostrud exercitation ullamco laboris nisi ut aliquip.</li>
-                <li className='indent-[-1.5em] pl-5'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu <br />
+                <ul className='list-disc  text-[#525252] p-3 list-inside pl-5  w-[311px] md:w-[507px] h-[204px] font-inter font-normal text-[13px] leading-[100%] space-y-[18px]'>
+                    <li className='indent-[-1.5em] pl-5'>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+                    <li className='indent-[-1.5em] pl-5'>Sed do eiusmod tempor incididunt.</li>
+                    <li className='indent-[-1.5em] pl-5'>Ut labore et dolore magna aliqua.</li>
+                    <li className='indent-[-1.5em] pl-5'>Ut enim ad minim veniam.</li>
+                    <li className='indent-[-1.5em] pl-5'>Quis nostrud exercitation ullamco laboris nisi ut aliquip.</li>
+                    <li className='indent-[-1.5em] pl-5'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu <br />
                     fugiat nulla pariatur.</li>
-                <li className='indent-[-1.5em] pl-5'>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia <br />
+                    <li className='indent-[-1.5em] pl-5'>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia <br />
                     deserunt mollit anim id est laborum.</li>
-            </ul>
+                </ul>
                     
-        </div>    
-            </div>
+            </div>    
+                </div>
                      {/* Imagem para desktop */}
                 <img src={img2}
                  alt="Foto de duas mulhures com duas crianças"
