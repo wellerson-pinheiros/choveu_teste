@@ -14,9 +14,9 @@ function App() {
      <Home/>
      <SecondSecion/>
      <TerceariSection/>
-     <QuartaSection/>
+      <QuartaSection/>
      <Galeria/>
-     <Footer/>
+     <Footer/>  
       <Routes>
        
       </Routes>

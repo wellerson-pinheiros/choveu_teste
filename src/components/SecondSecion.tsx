@@ -2,7 +2,7 @@ import img from '../assets/img.svg'
 
 function SecondSecion() {
   return (
-    <div className='bg-white w-full md:flex-row justify-center items-center flex-col flex' >
+    <div className='bg-white w-full lg:flex-row justify-center items-center flex-col flex' >
           
           <div className='w-[327px] font-inter font-normal text-[20px] leading-[30px] p-6'>
             <p className=''>
