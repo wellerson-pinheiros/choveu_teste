@@ -18,9 +18,9 @@ function QuartaSection() {
                         </h1>
             <img src={barraazul} alt="" className='w-[148px] h-3.5 mx-auto md:mx-0 '/> 
                 </div>
-            <div className='pt-8 md:pt-20 '>
+            <div className='pt-8 md:pt-20  '>
                 
-                <p className='font-inter font-normal text-[17px] leading-[150%] space-y-[18px] text-[#525252] p-8 md:p-0'>
+                <p className='font-inter  font-normal text-center md:text-left text-[17px] leading-[150%] space-y-[18px] text-[#525252] p-8 md:p-0'>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br className='hidden md:block'/>
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <br className='hidden md:block' />
                 ad minim veniam, quis nostrud exercitation ullamco laboris.
