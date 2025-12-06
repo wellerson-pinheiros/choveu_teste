@@ -5,7 +5,12 @@ import arrow from '../assets/arrow.svg'
 import arrowdown from '../assets/arrowdown.svg'
 import word from '../assets/word.svg'
 import mob from'../assets/mob.svg'
+import { useState } from 'react'
 function QuartaSection() {
+
+const [card,setCard] = useState(false)
+const [card2,setCard2] = useState(false)
+
   return (
     <div className="bg-white w-full ">
         <div className=" flex w-full justify-center xl:flex-row flex-col  ">
@@ -30,16 +35,24 @@ function QuartaSection() {
                 </h2>
             </div>  
                 </div>
-            <div className='bg-[#ffff] w-[328px] md:w-[597px]  h-[379px] md:h-[314px] flex flex-col mt-20 border border-[#EFEFEF] rounded-3xl '>
-             <div className='flex justify-between bg-[#EFEFEF] h-[60px] items-center p-4 rounded-t-2xl'>
+
+               
+            <div className='bg-[#ffff] w-[328px] md:w-[597px]  h-[379px] md:h-[314px] flex flex-col mt-20  rounded-3xl '>         
+             <div className='flex justify-between bg-[#EFEFEF] h-[60px] items-center p-4 rounded-t-2xl border border-[#EFEFEF]'>
                 <div className='flex gap-5'>
                     <img src={apple} alt="imagem de uma maça" />
                     <h2 className='font-inter font-bold text-[17px] leading-[150%] space-y-[18px] text-[#023F88]'>
                         Qui officia deserunt mollit
                     </h2>
-                </div>                
-                    <img src={arrow} alt="" />
+                </div>   
+                <button onClick={() => setCard(!card)}>
+                    <img
+                    src={ card ? arrow : arrowdown } alt="Card open x close"
+                    className='cursor-pointer' />
+                </button>                   
             </div >
+                {card && (
+                <div className="bg-white  rounded-b-2xl transition-all duration-300 border border-[#EFEFEF] h-full">      
                 <ul className='list-disc  text-[#525252] p-3 list-inside pl-5  w-[311px] md:w-[507px] h-[204px] font-inter font-normal text-[13px] leading-[100%] space-y-[18px]'>
                     <li className='indent-[-1.5em] pl-5'>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
                     <li className='indent-[-1.5em] pl-5'>Sed do eiusmod tempor incididunt.</li>
@@ -50,9 +63,13 @@ function QuartaSection() {
                     fugiat nulla pariatur.</li>
                     <li className='indent-[-1.5em] pl-5'>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia <br />
                     deserunt mollit anim id est laborum.</li>
-                </ul>        
+                </ul> 
+                </div>
+  )}       
         </div>
-        <div className='bg-[#ffff] w-[328px] md:w-[597px] h-[379px]  md:h-[314px] flex flex-col mt-20 border border-[#EFEFEF] rounded-3xl mb-2'>
+       
+           
+        <div className='bg-[#ffff] w-[328px] md:w-[597px] h-[379px]  md:h-[314px] flex flex-col mt-20  rounded-3xl mb-2'>
             <div className='flex justify-between bg-[#EFEFEF] h-[60px] items-center p-4 rounded-t-2xl '>
                 <div className='flex gap-5 items-center'>
                     <img src={word} alt="imagem de uma maça" />
@@ -60,8 +77,14 @@ function QuartaSection() {
                         Qui officia deserunt mollit
                     </h2>
                 </div>              
-                <img src={arrowdown} alt="imagem da ceta para baixo" />
+                <button onClick={() => setCard2(!card2)}>
+                    <img
+                    src={ card2 ? arrow : arrowdown } alt="Card open x close"
+                    className='cursor-pointer' />
+                </button>  
             </div >
+                {card2 && (
+                <div className="bg-white  rounded-b-2xl transition-all duration-300 border border-[#EFEFEF] h-full">      
                 <ul className='list-disc  text-[#525252] p-3 list-inside pl-5  w-[311px] md:w-[507px] h-[204px] font-inter font-normal text-[13px] leading-[100%] space-y-[18px]'>
                     <li className='indent-[-1.5em] pl-5'>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
                     <li className='indent-[-1.5em] pl-5'>Sed do eiusmod tempor incididunt.</li>
@@ -72,7 +95,9 @@ function QuartaSection() {
                     fugiat nulla pariatur.</li>
                     <li className='indent-[-1.5em] pl-5'>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia <br />
                     deserunt mollit anim id est laborum.</li>
-                </ul>                   
+                </ul>  
+                </div>
+  )}                        
             </div>    
                 </div>
                      {/* Imagem para desktop */}
