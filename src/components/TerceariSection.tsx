@@ -2,13 +2,13 @@ import rostos from '../assets/rostos.svg'
 import barra from '../assets/barra.svg'
 function TerceariSection() {
   return (
-    <div className="w-full bg-blue-500  text-white mb-8">
+    <div className="w-full bg-blue-500  text-white mb-8 ">
         <div className="flex flex-col w-full  text-center p-8 " >
             <h1 className="font-inter font-normal text-[20px] md:text-[40px] py-16">
             Lorem ipsum dolor sit amet
             </h1>
 
-            <div className="lg:w-[866px] w-[328px]  lg:h-[408px] flex flex-col lg:flex-row mx-auto bg-white rounded-2xl lg:gap-2.5">
+            <div className="= lg:w-[866px] w-[328px] lg:h-[408px] flex flex-col  lg:flex-row mx-auto bg-white rounded-2xl lg:gap-2.5">
                 <img src={rostos} alt="foto de um pai e seu bebê " className='rounded-2xl w-[417px] h-145px'/>
                 <div className='flex flex-col  lg:w-[365px] text-justify   pl-4 '>
                     <p className='text-black font-inter font-normal text-[24px] pt-6 w-[286px] lg:w-[359px]'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore </p>
