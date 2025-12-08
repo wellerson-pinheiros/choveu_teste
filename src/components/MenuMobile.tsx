@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react"
 import hamburguer from "../assets/hamburguer.svg"
 import x from "../assets/x.svg"
-import { Link } from "react-router-dom"
+import { Link } from "react-scroll";
+
 
 function MenuMobile() {
      const [open, setOpen] = useState(false)
@@ -21,7 +22,7 @@ function MenuMobile() {
 
     
     return (
-        <div className=" ">
+        <div className="md:hidden ">
             <button 
             className="md:hidden"
             onClick={() => setOpen(!open)}>
@@ -48,7 +49,7 @@ function MenuMobile() {
       >
         
         <div className="w-full bg-gray-100 p-4 rounded-2xl mt-2">
-            <Link to='/'>
+            <Link to='home' smooth={true} duration={600}>
                <p className=" 
                text-xl
                font-inter
@@ -59,7 +60,7 @@ function MenuMobile() {
         </div>
         
         <div className="w-full bg-gray-100 p-4 rounded-2xl">
-                 <Link to='/' className="
+                 <Link to='terceira' smooth={true} duration={600} className="
                text-xl
                font-inter
                font-light
@@ -69,7 +70,7 @@ function MenuMobile() {
         </div>     
            
          <div className="w-full bg-gray-100 p-4 rounded-2xl">
-            <Link to='/' className="
+            <Link to='quarta' smooth={true} duration={600} className="
                text-xl
                font-inter
                font-light
@@ -79,7 +80,7 @@ function MenuMobile() {
         </div>   
             
             <div className="w-full bg-gray-100 p-4 rounded-2xl mb-4">
-                <Link to='/'className="
+                <Link to='galeria' smooth={true} duration={600} className="
                text-xl
                font-inter
                font-light

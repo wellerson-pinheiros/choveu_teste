@@ -4,7 +4,7 @@ import barrafist from '../assets/barrabluefist.svg'
 import barrasecond from '../assets/barrabluesecond.svg'
 function Home() {
   return (
-    <div
+    <div id='Home'
       className="md:min-h-screen md:max-w-full bg-cover bg-center"
       style={{ backgroundImage: `url(${background})` }}
     >

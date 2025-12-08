@@ -5,7 +5,7 @@ function TerceariSection() {
     <div className="w-full bg-blue-500  text-white mb-8 ">
         <div className="flex flex-col w-full  text-center p-8 " >
             <h1 className="font-inter font-normal text-[20px] md:text-[40px] py-16">
-            Lorem ipsum dolor sit amet
+                Lorem ipsum dolor sit amet
             </h1>
 
             <div className="= lg:w-[866px] w-[328px] lg:h-[408px] flex flex-col  lg:flex-row mx-auto bg-white rounded-2xl lg:gap-2.5">
