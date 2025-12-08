@@ -1,73 +1,63 @@
-# React + TypeScript + Vite
+# 🌧️ Projeto Teste - Agência Choveu
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório contém um projeto desenvolvido como **teste técnico** para a agência **Choveu**.  
+O objetivo é demonstrar habilidades em **TypeScript**, **Node.js**, **React** e **Vite**, criando uma aplicação moderna, performática e bem estruturada.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias Utilizadas
+- **TypeScript** → Tipagem estática para maior segurança e produtividade.  
+- **Node.js** → Ambiente de execução para o backend e scripts.  
+- **React** → Biblioteca para construção da interface de usuário.  
+- **Vite** → Ferramenta de build rápida e otimizada para desenvolvimento frontend.  
+- **ESLint / Prettier** (opcional) → Padronização e qualidade de código.  
 
-## React Compiler
+# 🎨 Diferenciais do Projeto
+- **Estrutura organizada e modular.**
+- **Uso de hooks e boas práticas do React.**
+- **Tipagem completa com TypeScript.**
+- **Build rápido e leve com Vite.**
+- **Código limpo e fácil de manter.**
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+## 📌 Objetivo do ProjetO
+- Uma interface moderna seguindo o layout proposto;
+- Funcionalidades solicitadas no escopo;
+- Boas práticas de organização, responsividade e semântica;
+- Código limpo, modulável e fácil de manter.
 
-## Expanding the ESLint configuration
+## 🛠️ Como Executar o Projeto
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 🔧 Pré-requisitos
+Certifique-se de ter instalado:
+- **Node.js** versão LTS
+- **NPM** ou **Yarn**
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+# 📱 Responsividade
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## O layout foi desenvolvido seguindo a abordagem mobile-first, garantindo uma experiência consistente em:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- Smartphones
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- Tablets
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- Notebooks
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- Monitores maiores
+
+# 🎨 UI / Design
+
+## O projeto segue:
+
+Paleta de cores oficial do layout
+
+Tipografia recomendada
+
+Spacing & grid consistente
+
+Melhorias de usabilidade quando necessário
+
+# 🧍‍♂️ Autor
+
+Wellerson – Desenvolvedor Full Stack
+📧 wellerson.pinheiros@outlook.com
+💼 LinkedIn: https://www.linkedin.com/in/wellerson-pinheiros/
